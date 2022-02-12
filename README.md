@@ -104,7 +104,7 @@ success
 
 Check that you can still log in with your non-root user. Make sure you leave open sessions until you're sure the firewall is configured correctly!
 
-### Configure Google Authenticator
+### 4. Configure Google Authenticator
 Install the Google Authenticator app on your phone. Then, **switch over to your non-root user** and install it on your Linux server.
 ```
 [shane@rocky1 ~]$ sudo dnf install -y epel-release
