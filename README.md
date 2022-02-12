@@ -128,4 +128,11 @@ Move the Google Authenticator file to the `.ssh` directory, where SELinux will a
 ```
 
 If everything is configured correctly, you will now log in using two authentication mechanisms: your private key and the Google Authenticator code.
+```
+shane@Shanes-MacBook-Pro ~ % ssh -i ~/.ssh/id_ed25519 -p 2358 shane@123.123.223.332
+Verification code: 
+Activate the web console with: systemctl enable --now cockpit.socket
 
+Last login: Fri Feb 11 17:35:43 2022 from 60.70.50.40
+[shane@rocky1 ~]$ 
+```
